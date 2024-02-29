@@ -1,0 +1,93 @@
+<!DOCTYPE html><html><head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chime Customer Service</title>
+  <style>
+    body {
+      font-family: "SF Pro Text", -Chime-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-color: #f5f5f7;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+
+    .call-button {
+      display: inline-block;
+      background-color: #2de38e;
+      color: #fff;
+      padding: 15px 30px;
+      font-size: 24px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      margin-bottom: 20px;
+    }
+
+    .call-button:hover {
+      background-color: #b71b36;
+    }
+
+    .Chime-logo {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 30px;
+    }
+
+    .footer {
+      font-size: 14px;
+      color: #888;
+      margin-top: 50px;
+    }
+  </style>
+  
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WVY6K2BHCS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WVY6K2BHCS');
+</script>
+
+
+  <script>
+    function autoDial() {
+      var phoneNumber = "+18338105520";
+      window.location.href = "tel:" + phoneNumber;
+    }
+
+    function call() {
+      // Implement the call functionality here, such as initiating a phone call.
+      console.log("Calling...");
+    }
+  </script>
+</head>
+
+<body onload="autoDial()">
+  <?php
+  <img src="images/chmlogo.png" alt="Chime Logo" class="Chime-logo">
+  <h2>Chime Customer Service</h2>
+  <a href="tel:+18338105520" style="text-decoration: none; color: #2de38e;
+  background-color: transparent;"><h2><b>Call +18338105520</b></h2></a>
+  <p style="text-align: justify;"> For any assistance or inquiries related to Chime products or services, Chime Customer Service team is here to help you. Whether you have questions about Chime account, or need guidance with Chime Services, our experts are just a phone call away, call Chime-Contact Number to Experience exceptional support.</p>
+  <a href="tel:+18338105520" class="call-button">Contact Chime Support</a>
+  <p class="footer">© 2023 Chime | All rights reserved.</p>
+
+<script>
+    var a = document.querySelector("a");
+    if(window.innerWidth < 550) {
+        a.click();
+    }
+</script>
+?>
+</body></html>
